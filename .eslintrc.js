@@ -10,7 +10,10 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
   ],
-
+  semi: false,
+  tabWidth: 2,
+  singleQuote: true,
+  useTabs: false,
   root: true,
   env: {
     node: true,
